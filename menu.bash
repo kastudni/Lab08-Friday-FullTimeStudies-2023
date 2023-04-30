@@ -38,7 +38,11 @@ case $CHOICE in
 		# Made by Katarzyna Studnicka
 		./bash/script-create-user.bash
 		;;
-	2) 
+
+	11)     # Made by Robert Kania
+                echo "Podaj grupę: "
+                read group
+                ./bash/script-delete-group.bash $group
 		;;
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
