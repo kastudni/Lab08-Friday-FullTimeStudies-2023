@@ -38,6 +38,10 @@ case $CHOICE in
 		# Made by Katarzyna Studnicka
 		./bash/script-create-user.bash
 		;;
+	10) 
+		# Made by Damian Powazka
+		./bash/remove_user_from_group.bash
+		;;
 
 	11)     # Made by Robert Kania
                 echo "Podaj grupę: "
