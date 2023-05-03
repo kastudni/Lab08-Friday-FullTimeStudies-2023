@@ -39,6 +39,11 @@ case $CHOICE in
 		./bash/script-create-user.bash
 		;;
 
+	7) 
+		# Made by Karolina Kominiak
+		./bash/script-remove-permissions.bash
+		;;
+
 	11)     # Made by Robert Kania
                 echo "Enter group name: "
                 read group
