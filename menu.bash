@@ -43,6 +43,11 @@ case $CHOICE in
 		# Made by Karolina Kominiak
 		./bash/script-remove-permissions.bash
 		;;
+		
+	10) 
+	    # Made by Damian Powazka
+		./bash/script-remove-user-from-group.bash
+		;;	
 
 	11)     # Made by Robert Kania
                 echo "Enter group name: "
