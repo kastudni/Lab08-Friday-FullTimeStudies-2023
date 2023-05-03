@@ -1,5 +1,5 @@
 #!/bin/bash
-# Made by Katarzyna Studnicka - 25 Script Themes in GNU LINUX
+# Made by Katarzyna Studnicka - 23 Script Themes in GNU LINUX
 
 tput clear
 
@@ -40,7 +40,7 @@ case $CHOICE in
 		;;
 
 	11)     # Made by Robert Kania
-                echo "Podaj grupę: "
+                echo "Enter group name: "
                 read group
                 ./bash/script-delete-group.bash $group
 		;;
