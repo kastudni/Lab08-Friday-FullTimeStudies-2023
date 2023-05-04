@@ -43,7 +43,12 @@ case $CHOICE in
 		# Made by Karolina Kominiak
 		./bash/script-remove-permissions.bash
 		;;
-		
+
+	9)
+		# Made by Filip Przepiorka
+		./bash/script-add-user-to-the-group.bash
+		;;
+				
 	10) 
 	    # Made by Damian Powazka
 		./bash/script-remove-user-from-group.bash
