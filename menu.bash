@@ -46,7 +46,7 @@ case $CHOICE in
 
 	9)
 		# Made by Filip Przepiorka
-		./bash/script-add-user-to-the-group.bash
+		./bash/script-add-user-to-group.bash
 		;;
 				
 	10) 
