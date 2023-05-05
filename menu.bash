@@ -38,7 +38,9 @@ case $CHOICE in
 		# Made by Katarzyna Studnicka
 		./bash/script-create-user.bash
 		;;
-	2) 
+	5) 
+		# Made by Oleh Ortynskyi
+		./bash/script-change-password.bash
 		;;
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
