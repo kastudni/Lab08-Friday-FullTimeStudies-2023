@@ -1,5 +1,5 @@
 #!/bin/bash
-# Made by Katarzyna Studnicka - 25 Script Themes in GNU LINUX
+# Made by Katarzyna Studnicka - 23 Script Themes in GNU LINUX
 
 tput clear
 
@@ -38,7 +38,31 @@ case $CHOICE in
 		# Made by Katarzyna Studnicka
 		./bash/script-create-user.bash
 		;;
-	2) 
+
+	5) 
+		# Made by Oleh Ortynskyi
+		./bash/script-change-password.bash
+		;;
+
+	7) 
+		# Made by Karolina Kominiak
+		./bash/script-remove-permissions.bash
+		;;
+
+	9)
+		# Made by Filip Przepiorka
+		./bash/script-add-user-to-group.bash
+		;;
+				
+	10) 
+	    # Made by Damian Powazka
+		./bash/script-remove-user-from-group.bash
+		;;	
+
+	11)     # Made by Robert Kania
+                echo "Enter group name: "
+                read group
+                ./bash/script-delete-group.bash $group
 		;;
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
