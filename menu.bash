@@ -64,6 +64,10 @@ case $CHOICE in
                 read group
                 ./bash/script-delete-group.bash $group
 		;;
+		
+	20)     # Made by Dawid Wolkowicz
+		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
+		;;
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
 		sleep 5
