@@ -66,7 +66,8 @@ case $CHOICE in
 		;;
 	15) 
 	    # Made by Vitalii Yuzvak
-		./bash/script-automatic-system-and-application-updates.bash
+	    ./bash/script-automatic-system-and-application-updates.bash
+	    ;;
 	
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
