@@ -59,11 +59,21 @@ case $CHOICE in
 		./bash/script-remove-user-from-group.bash
 		;;	
 
-	11)     # Made by Robert Kania
-                echo "Enter group name: "
-                read group
-                ./bash/script-delete-group.bash $group
+	11) # Made by Robert Kania
+        	echo "Enter group name: "
+            read group
+        ./bash/script-delete-group.bash $group
 		;;
+
+	15) 
+	    # Made by Vitalii Yuzvak
+	    ./bash/script-automatic-system-and-application-updates.bash
+	    ;;
+
+	20)     # Made by Dawid Wolkowicz
+		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
+		;;
+		
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
 		sleep 5
