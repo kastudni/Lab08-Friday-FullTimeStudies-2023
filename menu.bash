@@ -70,6 +70,11 @@ case $CHOICE in
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
 
+18) 
+	    # Made by Michał Romaszewski
+	    ./bash/script-list-processes.bash
+	    ;;
+
 	20)     # Made by Dawid Wolkowicz
 		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
 		;;
