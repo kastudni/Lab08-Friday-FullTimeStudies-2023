@@ -4,7 +4,6 @@
 
 echo "Automatic system and application updates"
 
-#!/bin/bash
 
 # Check which package manager is available
 if command -v yum &> /dev/null; then
