@@ -64,6 +64,10 @@ case $CHOICE in
                 read group
                 ./bash/script-delete-group.bash $group
 		;;
+	15) 
+	    # Made by Vitalii Yuzvak
+		./bash/script-automatic-system-and-application-updates.bash
+	
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
 		sleep 5
