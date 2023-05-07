@@ -39,8 +39,8 @@ case $CHOICE in
 		./bash/script-create-user.bash
 		;;
 
-    4)  # Made by Darina Bajmuchanbietowa
-	    ./bash/skript-remove-user-password.bash
+	 4)  # Made by Darina Bajmuchanbietowa
+	        ./bash/script-remove-user-password.bash
 		;;
 
 	5) 
