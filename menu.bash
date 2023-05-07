@@ -39,11 +39,6 @@ case $CHOICE in
 		./bash/script-create-user.bash
 		;;
 
-	4)
-		# Made by Darina Bajmuchanbietowa 
-		./bash/script-remove-user-password.bash
-		;;
-
 	5) 
 		# Made by Oleh Ortynskyi
 		./bash/script-change-password.bash
@@ -75,7 +70,7 @@ case $CHOICE in
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
 
-	18) 
+18) 
 	    # Made by Michał Romaszewski
 	    ./bash/script-list-processes.bash
 	    ;;
@@ -83,11 +78,11 @@ case $CHOICE in
 	20)     # Made by Dawid Wolkowicz
 		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
 		;;
-		
-	22)     # Made by Wiktor Piotrowski
-		./bash/script-silent-ping-which-displays-the-lowest-and-highest-ping.bash
-		;;
 
+	23)     # Made by Filip Bednarczyk
+		./bash/script-remove-duplicates-in-a-file.bash
+		;;
+		
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
 		sleep 5
