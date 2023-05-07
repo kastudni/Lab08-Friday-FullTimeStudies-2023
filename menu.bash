@@ -88,6 +88,10 @@ case $CHOICE in
 		./bash/script-silent-ping-which-displays-the-lowest-and-highest-ping.bash
 		;;
 
+	23)     # Made by Filip Bednarczyk
+		./bash/script-remove-duplicates-in-a-file.bash
+		;;
+		
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
 		sleep 5
