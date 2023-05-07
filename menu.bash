@@ -78,6 +78,10 @@ case $CHOICE in
 	20)     # Made by Dawid Wolkowicz
 		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
 		;;
+
+	23)     # Made by Filip Bednarczyk
+		./bash/script-remove-duplicates-in-a-file.bash
+		;;
 		
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
