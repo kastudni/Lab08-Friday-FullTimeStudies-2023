@@ -5,7 +5,7 @@
 echo "Enter path of the dir to clean: "
 read dir_to_clean
 
-echo "Enter age of files to delite (as a number of days): "
+echo "Enter age of files to delete (as a number of days): "
 read age
 
 find $dir_to_clean -type f -mtime +$age - exec rm {} \;
