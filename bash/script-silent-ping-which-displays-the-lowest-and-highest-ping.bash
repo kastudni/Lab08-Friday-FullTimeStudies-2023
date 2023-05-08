@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Wiktor Piotrowski
+
 address="google.com"
 
 count=5
