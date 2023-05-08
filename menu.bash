@@ -85,6 +85,11 @@ case $CHOICE in
 	    # Made by Vitalii Yuzvak
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
+	    
+	17)
+	    # Made by Kamil Rydarowicz
+	    ./bash/script-creat-LVM-volume.bash
+	    ;;
 
 	18) 
 	    # Made by Michał Romaszewski
