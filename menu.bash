@@ -54,6 +54,11 @@ case $CHOICE in
 		./bash/script-remove-permissions.bash
 		;;
 
+	8)
+		# Grzegorz Szczurek
+		./bash/script-create-group.bash
+		;;
+
 	9)
 		# Made by Filip Przepiorka
 		./bash/script-add-user-to-group.bash
