@@ -102,7 +102,10 @@ case $CHOICE in
 	23)     # Made by Filip Bednarczyk
 		./bash/script-remove-duplicates-in-a-file.bash
 		;;
-		
+	24)		# Made by Krzysztof Soból
+		./bash/script-remove-old-files.bash
+		;;
+
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
 		sleep 5
