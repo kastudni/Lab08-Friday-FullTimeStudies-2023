@@ -45,6 +45,10 @@ case $CHOICE in
 		# Made by Dawid Czesak
 		./bash/script-delete-user.bash
 		;;
+	3)
+		# Made by Jakub Wyganowski
+		./bash/script-set-user-passwd.bash
+		;;
 
 	4)
 		# Made by Darina Bajmuchanbietowa 
