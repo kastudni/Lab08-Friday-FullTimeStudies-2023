@@ -1,6 +1,6 @@
-#Grzegorz Szczurek
-
 #!/bin/bash
+
+# Grzegorz Szczurek
 
 echo "Enter the name of the new group:"
 read group_name
