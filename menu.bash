@@ -38,6 +38,11 @@ case $CHOICE in
 		# Made by Katarzyna Studnicka
 		./bash/script-create-user.bash
 		;;
+		
+	2) 
+		# Made by Dawid Czesak
+		./bash/script-delete-user.bash
+		;;
 
 	4)
 		# Made by Darina Bajmuchanbietowa 
