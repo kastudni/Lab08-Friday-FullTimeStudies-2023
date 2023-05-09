@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Kamil Rydarowicz
@@ -31,3 +32,4 @@ lvcreate -L ${logical_partition_size}M -n $logical_partition_name my_volume_grou
 
 
 lvdisplay
+

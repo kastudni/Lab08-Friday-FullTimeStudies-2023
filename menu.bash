@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< HEAD
 # Made by Katarzyna Studnicka - 24 Script Themes in GNU LINUX
+=======
+# Made by Katarzyna Studnicka - 25 Script Themes in GNU LINUX
+>>>>>>> 943c643ed089b0c822e0d6379759ba9f45378dd7
 
 tput clear
 
@@ -28,6 +32,10 @@ echo "Script 21: Install and configure sofware packages on the system"
 echo "Script 22: Silent ping which displays the lowest and highest ping"
 echo "Script 23: Check and remove duplicates in a file"
 echo "Script 24: Automatically delete files or folders older than the specified age"
+<<<<<<< HEAD
+=======
+echo "Script 25: Automatically removal of temporary files from the system to free up disk space"
+>>>>>>> 943c643ed089b0c822e0d6379759ba9f45378dd7
 
 echo "99 - Exit from menu"
 echo ""
@@ -89,12 +97,13 @@ case $CHOICE in
 	    # Made by Vitalii Yuzvak
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
-
+	    
 	17)
 	    # Made by Kamil Rydarowicz
 	    ./bash/script-creat-LVM-volume.bash
 	    ;;
-		
+
+
 	18) 
 	    # Made by Michał Romaszewski
 	    ./bash/script-list-processes.bash
