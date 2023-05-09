@@ -1,5 +1,5 @@
 #!/bin/bash
-# Made by Katarzyna Studnicka - 23 Script Themes in GNU LINUX
+# Made by Katarzyna Studnicka - 24 Script Themes in GNU LINUX
 
 tput clear
 
@@ -27,6 +27,7 @@ echo "Script 20: Monitor system resource: CPU, memory, disk space"
 echo "Script 21: Install and configure sofware packages on the system"
 echo "Script 22: Silent ping which displays the lowest and highest ping"
 echo "Script 23: Check and remove duplicates in a file"
+echo "Script 24: Automatically delete files or folders older than the specified age"
 
 echo "99 - Exit from menu"
 echo ""
@@ -43,6 +44,11 @@ case $CHOICE in
 		# Made by Dawid Czesak
 		./bash/script-delete-user.bash
 		;;
+
+	3)
+		# Made by Jakub Wyganowski
+		./bash/script-set-user-passwd.bash
+		;;		
 
 	4)
 		# Made by Darina Bajmuchanbietowa 
