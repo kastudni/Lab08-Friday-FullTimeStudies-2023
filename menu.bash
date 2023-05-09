@@ -90,24 +90,29 @@ case $CHOICE in
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
 
+    17) 
+	    # Made by Kamil Rydarowicz
+	    ./bash/script-creat-LVM-volume.bash
+	    ;;
+
 	18) 
 	    # Made by Michał Romaszewski
 	    ./bash/script-list-processes.bash
 	    ;;
 
-	20)     # Made by Dawid Wolkowicz
+	20) # Made by Dawid Wolkowicz
 		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
 		;;
 		
-	22)     # Made by Wiktor Piotrowski
+	22) # Made by Wiktor Piotrowski
 		./bash/script-silent-ping-which-displays-the-lowest-and-highest-ping.bash
 		;;
 
-	23)     # Made by Filip Bednarczyk
+	23) # Made by Filip Bednarczyk
 		./bash/script-remove-duplicates-in-a-file.bash
 		;;
 
-	24)		# Made by Krzysztof Soból
+	24) # Made by Krzysztof Soból
 		./bash/script-remove-old-files.bash
 		;;	
 		
