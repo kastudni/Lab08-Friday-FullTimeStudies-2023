@@ -11,6 +11,7 @@ fi
 lsblk
 
 
+
 read -p "Podaj nazwę dysku, na którym chcesz utworzyć partycję LVM (np. sda, sdb): " disk_name
 
 
