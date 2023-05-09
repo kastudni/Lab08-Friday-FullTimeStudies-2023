@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Maciej Ficek
+
 read -p "Enter username " username
 
 if id -u $username >/dev/null 2>&1; then
