@@ -85,6 +85,10 @@ case $CHOICE in
         ./bash/script-delete-group.bash $group
 		;;
 
+	12) # Made by Anna Styrna
+		./bash/script-create-password-for-the-group.bash
+		;;
+
 	15) 
 	    # Made by Vitalii Yuzvak
 	    ./bash/script-automatic-system-and-application-updates.bash
