@@ -90,6 +90,11 @@ case $CHOICE in
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
 
+	17)
+	    # Made by Kamil Rydarowicz
+	    ./bash/script-creat-LVM-volume.bash
+	    ;;
+		
 	18) 
 	    # Made by Michał Romaszewski
 	    ./bash/script-list-processes.bash
