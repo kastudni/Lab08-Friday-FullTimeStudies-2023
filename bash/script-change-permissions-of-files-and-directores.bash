@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Maksym Shcherbakha
+
 read -p "Enter the path to the file or directory: " PATH
 read -p "Enter permissions as a three-digit number : " PERMISSIONS
 chmod $PERMISSIONS $PATH
