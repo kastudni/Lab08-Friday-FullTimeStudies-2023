@@ -125,7 +125,11 @@ case $CHOICE in
 		# Made by Dawid Wolkowicz
 		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
 		;;
-		
+
+	21) # Made by Dmytro Poliakov
+		./bash/install-and-configure-sofware-packages-on-the-system.bash
+		;;
+
 	22) 
 		# Made by Wiktor Piotrowski
 		./bash/script-silent-ping-which-displays-the-lowest-and-highest-ping.bash
