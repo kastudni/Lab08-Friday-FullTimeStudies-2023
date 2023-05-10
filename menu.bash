@@ -92,6 +92,10 @@ case $CHOICE in
 		./bash/script-create-password-for-the-group.bash
 		;;
 
+	14) # Made by Maksym Shcherbakha
+		./bash/script-change-permissions-of-files-and-directores.bash
+		;;
+
 	15) 
 	    # Made by Vitalii Yuzvak
 	    ./bash/script-automatic-system-and-application-updates.bash
