@@ -59,10 +59,12 @@ case $CHOICE in
 		# Made by Oleh Ortynskyi
 		./bash/script-change-password.bash
 		;;
+
 	6)
 		#made by Maciej Ficek
 		./bash/script-add-permissions.bash
 		;;
+
 	7) 
 		# Made by Karolina Kominiak
 		./bash/script-remove-permissions.bash
@@ -82,17 +84,25 @@ case $CHOICE in
 		./bash/script-remove-user-from-group.bash
 		;;	
 
-	11) # Made by Robert Kania
+	11) 
+		# Made by Robert Kania
         	echo "Enter group name: "
             read group
         ./bash/script-delete-group.bash $group
 		;;
 
-	12) # Made by Anna Styrna
+	12)
+		# Made by Anna Styrna
 		./bash/script-create-password-for-the-group.bash
 		;;
 
-	14) # Made by Maksym Shcherbakha
+	13) 
+		# Made by Idalésio Caboco Claudio
+		./bash/script-create-a-directory.bash
+		;;
+
+	14) 
+		# Made by Maksym Shcherbakha
 		./bash/script-change-permissions-of-files-and-directores.bash
 		;;
 
@@ -100,8 +110,8 @@ case $CHOICE in
 	    # Made by Vitalii Yuzvak
 	    ./bash/script-automatic-system-and-application-updates.bash
 	    ;;
-
-    17) 
+	
+	17) 
 	    # Made by Kamil Rydarowicz
 	    ./bash/script-creat-LVM-volume.bash
 	    ;;
@@ -111,19 +121,23 @@ case $CHOICE in
 	    ./bash/script-list-processes.bash
 	    ;;
 
-	20) # Made by Dawid Wolkowicz
+	20) 
+		# Made by Dawid Wolkowicz
 		./bash/script-to-monitor-system-resource-CPU-memory-disk-space.bash
 		;;
 		
-	22) # Made by Wiktor Piotrowski
+	22) 
+		# Made by Wiktor Piotrowski
 		./bash/script-silent-ping-which-displays-the-lowest-and-highest-ping.bash
 		;;
 
-	23) # Made by Filip Bednarczyk
+	23) 
+		# Made by Filip Bednarczyk
 		./bash/script-remove-duplicates-in-a-file.bash
 		;;
 
-	24) # Made by Krzysztof Soból
+	24) 
+		# Made by Krzysztof Soból
 		./bash/script-remove-old-files.bash
 		;;	
 		
