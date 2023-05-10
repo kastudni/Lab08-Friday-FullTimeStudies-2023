@@ -59,7 +59,10 @@ case $CHOICE in
 		# Made by Oleh Ortynskyi
 		./bash/script-change-password.bash
 		;;
-
+	6)
+		#made by Maciej Ficek
+		./bash/script-add-permissions.bash
+		;;
 	7) 
 		# Made by Karolina Kominiak
 		./bash/script-remove-permissions.bash
