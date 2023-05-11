@@ -2,19 +2,25 @@
 
 #Vladyslav Lipnitskyi
 
-# Get current date and time for naming backup folder
-date=$(date +"%Y-%m-%d_%H-%M-%S")
+# Source directory to backup
+source_directory="/path/to/source_directory"
 
-# Set your source and destination directories
-read -p "Enter the path to the source directory: " source_dir
-read -p "Enter the remote server address in the format user@remote.host:/path/to/destination: " destination_dir
+# Remote host details
+remote_host="user@remote.example.com"
+remote_directory="/backup/location"
 
-# Run the rsync command to backup files and directories
-rsync -avz --delete $source_dir $destination_dir/$date
+# Rsync options
+rsync_options="-avz --delete"
 
-# Check the rsync command status
+# Log file to store backup progress
+log_file="/path/to/backup.log"
+
+# Execute rsync command
+rsync $rsync_options $source_directory $remote_host:$remote_directory >> $log_file 2>&1
+
+# Check rsync exit status
 if [ $? -eq 0 ]; then
-  echo "Backup completed successfully"
+  echo "Backup completed successfully."
 else
-  echo "Backup failed"
+  echo "Backup failed. Check the log file $log_file for more details."
 fi
