@@ -120,6 +120,10 @@ case $CHOICE in
 	    # Made by Michał Romaszewski
 	    ./bash/script-list-processes.bash
 	    ;;
+    19) 
+		# Made by Vladyslav Lipnitskyi
+		./bash/script-backup-files-and-directores.bash
+		;;
 
 	20) 
 		# Made by Dawid Wolkowicz
@@ -154,5 +158,6 @@ case $CHOICE in
 		sleep 5
 		./menu
 		;;
+
 esac
 
